@@ -1,7 +1,7 @@
 import navbar from "../pageObject/navbar/navbar"
 import login from "../pageObject/login/loginPage"
 
-describe('Register Function Test', () => {
+describe('Log In Function Test', () => {
 
     beforeEach(() => {
         cy.visit('https://www.godtowathailand.com/')
