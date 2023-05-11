@@ -1,12 +1,6 @@
-class login {
+class register {
     element = {
-        navbarFunc : () => cy.get('.navbar-toggler'),
-        emailInput : () => cy.get('#textLoginEmail'),
-        passwordInput : () => cy.get('#textLoginPassword'),
-        loginBtn : () => cy.get('#btnLogin'),
-        logoutBtn : () => cy.get('#txtMemberLogoutonmenu'),
-        textHeader : () => cy.get('.h3-hover'),
-        errorMessage : () => cy.get('.serverResponse'),
+        
     }
 
     xxx() {
@@ -14,4 +8,4 @@ class login {
     }
 }
 
-module.exports = new login();
+module.exports = new register();

@@ -7,7 +7,7 @@ describe('template spec', () => {
         cy.visit('https://www.godtowathailand.com/')
     })
 
-    it(() => {
+    it('', () => {
         
     })
 })
