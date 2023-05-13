@@ -12,8 +12,6 @@ class address {
         addAddressBtn :() => cy.get('#btnPlusMemAdrrShipping'),
         editAddressBtn :() => cy.get(':nth-child(2) > :nth-child(4) > .editMemAdrrShipping'),
         saveAddressBtn :() => cy.get('#btnSaveAdress'),
-        
-
     }
 
     addAddress(fullName, phoneNumber, address, postal) {
